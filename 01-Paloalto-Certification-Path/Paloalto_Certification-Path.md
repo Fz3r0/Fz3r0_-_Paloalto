@@ -51,6 +51,13 @@
 - Software firewalls are crucial components of modern cybersecurity architectures.
 - This certification equips engineers with the expertise to deploy, configure, and manage Palo Alto Networks’ software-based firewalls, ensuring robust protection for digital assets.
 
+# 🔥💀🛣️ The Fz3r0 Way
+
+1. _PCCET (Optional)_
+2. PCNSA
+3. PCNSE
+4. PCCSE
+
 # 📚🗂️🎥 Resources
 
 - https://www.cbtnuggets.com/blog/training/certification-paths/a-complete-palo-alto-certification-guide
