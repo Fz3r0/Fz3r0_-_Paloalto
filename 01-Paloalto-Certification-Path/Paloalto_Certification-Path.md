@@ -15,7 +15,7 @@
 
 # 🛡️👣🏁 Paloalto: `Certification Path`
 
-<span align="center"> <p align="center"> ![path]([https://user-images.githubusercontent.com/94720207/166587250-292d9a9f-e590-4c25-a678-d457e2268e85.gif](https://github.com/user-attachments/assets/f901ff47-bcf4-4065-a497-87c4c9771dd2)) </p> </span> 
+<span align="center"> <p align="center"> ![path](https://github.com/user-attachments/assets/f901ff47-bcf4-4065-a497-87c4c9771dd2) </p> </span> 
 
 ## 🛡️ Palo Alto Networks Certified Cybersecurity Entry-level Technician: 
 
