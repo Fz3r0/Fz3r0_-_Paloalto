@@ -1,4 +1,4 @@
-# `Paloalto` - `Certification Path`
+# 🔥🧱🛡️ `Paloalto` - `Certification Path`
 
 ![My Video](https://user-images.githubusercontent.com/94720207/165892585-b830998d-d7c5-43b4-a3ad-f71a07b9077e.gif)
 
@@ -13,60 +13,48 @@
 
 <br>
 
-# Index
+# 🛡️👣🏁 Paloalto: `Certification Path`
 
+![image](https://github.com/user-attachments/assets/f901ff47-bcf4-4065-a497-87c4c9771dd2)
 
+## 🛡️ Palo Alto Networks Certified Cybersecurity Entry-level Technician: 
 
+- This certification is ideal for beginners aiming to kickstart their career in cybersecurity.
+- It covers fundamental concepts, tools, and techniques necessary for entry-level technicians to understand and address cyber threats effectively.
 
+## 🛡️ Prisma Certified Cloud Security Engineer: 
 
+- With the increasing adoption of cloud technology, this certification focuses on securing cloud environments using Palo Alto Networks’ Prisma suite.
+- It equips engineers with the knowledge and skills to design, implement, and manage robust cloud security solutions.
+  
+## 🛡️ Palo Alto Networks Certified Detection and Remediation Analyst: 
 
+- This certification is designed for analysts responsible for detecting and responding to cybersecurity incidents.
+- It provides training on leveraging Palo Alto Networks’ advanced detection and remediation tools to identify and mitigate threats effectively.
 
+## 🛡️ Palo Alto Networks Certified Network Security Administrator: 
 
+- Network security administrators play a crucial role in safeguarding organizational networks.
+- This certification covers the configuration, management, and troubleshooting of Palo Alto Networks’ Next-Generation Firewalls, ensuring the secure operation of network infrastructure.
 
+## 🛡️ Palo Alto Networks Certified Network Security Engineer: 
 
+- Building upon the Network Security Administrator certification, this advanced certification delves deeper into network security concepts and practices. It prepares engineers to design and implement comprehensive security solutions using Palo Alto Networks’ technologies.
 
+## 🛡️ Palo Alto Networks Certified Security Automation Engineer: 
 
+- Automation is becoming increasingly vital in cybersecurity for enhancing efficiency and responsiveness.
+- This certification focuses on automating security tasks using Palo Alto Networks’ automation capabilities, enabling engineers to streamline processes and better defend against threats.
 
+## 🛡️ Palo Alto Networks Certified Software Firewall Engineer: 
 
+- Software firewalls are crucial components of modern cybersecurity architectures.
+- This certification equips engineers with the expertise to deploy, configure, and manage Palo Alto Networks’ software-based firewalls, ensuring robust protection for digital assets.
 
+# 📚🗂️🎥 Resources
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# Resources
-
-
-
-
-
-
-
+- https://www.cbtnuggets.com/blog/training/certification-paths/a-complete-palo-alto-certification-guide
+- https://www.imedita.com/blog/palo-alto-certification-cost/
   
 ---
 
