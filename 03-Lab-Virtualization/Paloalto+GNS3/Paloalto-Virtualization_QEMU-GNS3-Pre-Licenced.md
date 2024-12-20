@@ -89,6 +89,7 @@ In the left side of GNS3 check for the new `PA-VM 9.0.4` in the `Security` devic
 
 - Enter the Paloalto Appliance via SSH (just double click)
     - **YOU MUST WAIT SEVERAL MINUTES UNTIL THE `3RD PROMPT` BEFORE YOU CAN LOGIN, BE PATIENT!!!**
+    - **YOU WILL SEE PROMPTS LIKE "VM LOGIN", DON'T TOUCH ANYTHING, JUST WAIT!!!**
 
 
 
