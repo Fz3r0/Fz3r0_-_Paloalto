@@ -70,7 +70,7 @@ commit
 
 In the left side of GNS3 check for the new `PA-VM 9.0.4` in the `Security` devices: 
 
-![image](https://github.com/user-attachments/assets/1e3b431c-1e3f-4d08-a495-b0bb1dd495c1)
+<span align="center"> <p align="center"> ![gns3](https://github.com/user-attachments/assets/1e3b431c-1e3f-4d08-a495-b0bb1dd495c1) </p> </span> 
 
 # 📚🗂️🎥 Resources
 
