@@ -74,6 +74,35 @@ commit
 
 The pre-licenced VM's (eg. KVR 10.0.4) use a specified date generated when the file/licence was created, so it's no longer valid!
 
+- https://upw.io/4xk/PA-VM-KVM-10.0.4.vm_eval.qcow2
+- https://upw.io/4FK/PA-VM-ESX-10.0.4.vm_eval.ova
+
+### ESXI .ova
+
+Paste following settings in vmx or add them in `esxi`:
+
+tools.syncTime = "FALSE"
+time.synchronize.continue = "FALSE"
+time.synchronize.restore = "FALSE"
+time.synchronize.resume.disk = "FALSE"
+time.synchronize.shrink = "FALSE"
+time.synchronize.tools.startup = "FALSE"
+time.synchronize.tools.enable = "FALSE"
+time.synchronize.resume.host = "FALSE"
+rtc.startTime = "1631486450"
+
+### qcow2 QEMU
+
+For qcow2, use "-rtc base=2021-09-12" in settings. You can change time back after it boots up. Also, it supports uploading dynamic updates files manually. 
+
+![image](https://github.com/user-attachments/assets/b539695f-5b75-4d6e-92a8-021fb66ff2c2)
+
+![image](https://github.com/user-attachments/assets/9f8c51a0-fc10-4fa7-b3a3-e3c8c1027315)
+
+![image](https://github.com/user-attachments/assets/a2b3784a-6180-4e0e-8750-b26e8c059575)
+
+
+
 **The way to work-around this issue using the GNS3 KVM or VMware .ova  is to manually changin the date to the GNS3 virtual machine:**
 
 1. Disable the time on the Vmware:
@@ -162,6 +191,7 @@ Use the default Username/Password:
 - https://labhub.eu.org/UNETLAB%20II/addons/qemu/Palo%20Alto/
 - https://www.youtube.com/watch?v=VEZ5DZpQ_qc&list=PL9aktFItFNdOXy0Z-D5RFSdX_AHjJrIgi&index=1
 - https://live.paloaltonetworks.com/t5/general-topics/pa-vm-10-0-4-deployment/m-p/502912#M105376
+- https://www.youtube.com/watch?v=eUaVv6Hfc68
 
 ---
 
