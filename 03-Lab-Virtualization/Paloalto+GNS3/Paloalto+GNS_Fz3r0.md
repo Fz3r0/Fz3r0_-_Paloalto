@@ -17,7 +17,25 @@
 
 # 🛡️👣🏁 Paloalto: `VMware Virtualization` + `GNS3`
 
-## 
+
+# Tpology Example
+
+![image](https://github.com/user-attachments/assets/f85ccd30-3bbe-4691-9241-0305dca94931)
+
+# VMware Configuration
+
+## VMware: `Virtual Interfaces`
+
+- VMNET Bridge = `192.168.1.0`
+- VMNET 1 = `172.16.0.0`
+- VMNET 2 = `10.1.0.0`
+- VMNET 3 = `192.168.20.0`
+
+## Original Config
+
+![image](https://github.com/user-attachments/assets/e333682d-0f4b-41ab-9427-dce2dd1f1ae1)
+
+## Lab Config
 
 
 # 📚🗂️🎥 Resources
