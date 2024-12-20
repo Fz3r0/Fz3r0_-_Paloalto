@@ -15,6 +15,9 @@
 
 # 📝❓📄 `Index`
 
+- Instructions
+- Result
+
 # 🔥🧱🛡️ Paloalto: `GNS3` + `QEMU`
 
 This guide provides step-by-step instructions to set up a Paloalto virtual firewall in GNS3 using QEMU. You'll learn how to download the required appliance and virtual firewall files, configure the GNS3 environment, and start working with the PA-VM template.
