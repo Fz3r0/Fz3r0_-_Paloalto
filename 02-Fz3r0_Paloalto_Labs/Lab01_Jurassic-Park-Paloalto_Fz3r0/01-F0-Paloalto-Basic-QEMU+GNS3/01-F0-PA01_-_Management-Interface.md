@@ -31,11 +31,12 @@ In the left side of GNS3 check for the new `PA-VM 9.0.4` in the `Security` devic
 
 <span align="center"> <p align="center"> ![gns3](https://github.com/user-attachments/assets/1e3b431c-1e3f-4d08-a495-b0bb1dd495c1) </p> </span> 
 
-Add the Appliance, a VPC, a NAT or Cloud and check for DHCP and connections, it's important to check the IP obtained for future uses:
+- Add the Appliance, a VPC, a NAT or Cloud and check for DHCP and connections (it's important to check the IP obtained for future uses).
+- **Check from the PC for an Available IP for future use in the Paloalto, in my case `192.168.122.200` (No response: available IP Address)**
 
 ![image](https://github.com/user-attachments/assets/549f9dde-81e0-46b9-b754-7ee9612dc4ac)
 
-**Check from the PC for an Available IP for future use in the Paloalto, in my case `192.168.122.200` (No response: available IP Address)**
+
 
 ## Fz3r0 Lab Addressing
 
