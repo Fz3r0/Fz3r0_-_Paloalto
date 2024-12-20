@@ -76,15 +76,23 @@ The pre-licenced VM's (eg. KVR 10.0.4) use a specified date generated when the f
 
 **The way to work-around this issue using the GNS3 KVM or VMware .ova  is to manually changin the date to the GNS3 virtual machine:**
 
-1- Disable the time on the Vmware
-
-2- Go to VM host directory and add below lines to the vmx file, to completely disable the time sync
-
+1- Disable the time on the Vmware:
+    - Go to PA-VM or GNS3-VM host directory and add below lines to the `.vmx file` (eg `C:\Users\Fz3r0\Documents\Virtual Machines\GNS3 VM`), to completely disable the time sync:
+    
+````
       time.synchronize.continue = "FALSE"
       time.synchronize.restore = "FALSE"
       time.synchronize.resume.disk = "FALSE"
       time.synchronize.shrink = "FALSE"
       time.synchronize.tools.startup = "FALSE"
+````
+
+or
+
+````
+      time.synchronize.continue = "FALSE"
+````
+
 
 3- Start the VM from : Power -> Power on to Firmware
 
