@@ -79,6 +79,7 @@ In the left side of GNS3 check for the new `PA-VM 9.0.4` in the `Security` devic
 # 📚🗂️🎥 Resources
 
 - https://www.youtube.com/watch?v=TbQxGUKgpg8
+- https://youtu.be/VEZ5DZpQ_qc?si=uOT53KK6zI1mgiER
 - https://labhub.eu.org/UNETLAB%20II/addons/qemu/Palo%20Alto/
 - https://www.youtube.com/watch?v=VEZ5DZpQ_qc&list=PL9aktFItFNdOXy0Z-D5RFSdX_AHjJrIgi&index=1
 
