@@ -61,15 +61,7 @@ commit
 
 ````
 
-Example:
 
-````sh
-configure
-set deviceconfig system ip-address <Static IP> netmask <Netmask> default-gateway <Gateway IP> type static
-set deviceconfig system dns-setting servers primary <DNS Server IP> secondary <DNS Server IP>
-commit
-
-````
 
 # 📚🗂️🎥 Resources
 
