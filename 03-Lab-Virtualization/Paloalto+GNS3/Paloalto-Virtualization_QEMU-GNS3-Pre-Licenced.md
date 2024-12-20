@@ -78,6 +78,10 @@ In the left side of GNS3 check for the new `PA-VM 9.0.4` in the `Security` devic
 
 <span align="center"> <p align="center"> ![gns3](https://github.com/user-attachments/assets/1e3b431c-1e3f-4d08-a495-b0bb1dd495c1) </p> </span> 
 
+- Before turning on the Appliance, add more RAM to it (8GB)
+
+![image](https://github.com/user-attachments/assets/5fc29d61-7793-4de0-955e-80c23f593d43)
+
 - Add the Appliance, a VPC, a NAT or Cloud and check for DHCP and connections (it's important to check the IP obtained for future uses).
 - **Check from the PC for an Available IP for future use in the Paloalto, in my case `192.168.122.200` (No response: available IP Address)**
 
