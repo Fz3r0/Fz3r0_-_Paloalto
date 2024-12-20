@@ -18,8 +18,21 @@
 # 🔥🧱🛡️ Paloalto: `VMware Virtualization` + `GNS3` + `QEMU`
 
 
-# Tpology Example
+# Instructions
 
+### 1. Download & Install PA GNS3 Appliance
+
+- https://gns3.com/marketplace/appliances/pa-vm
+
+Steps:
+
+1. Download `pan-vm-fw.gns3a`
+2. Open GNS3 & Click on: `File > Import Appliance` 
+3. Install on main server, next...
+4. QUEMU binary, just click next...
+5. Select the version you want to use (in my case 9.0.4)
+    - If is not showing green already and are "missing files" then:
+    -  
 
 
 
