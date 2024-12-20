@@ -15,9 +15,7 @@
 
 # 🛡️👣🏁 Paloalto: `Fz3r0 :: Jurassic Park Lab` :: `Topology`
 
-![image](https://github.com/user-attachments/assets/5c3a1e0a-9ec7-43d5-bb9a-ace37e7697c3)
-
-
+![image](https://github.com/user-attachments/assets/9e9c84b9-a7dd-4879-9284-6b0468c79d54)
 
 # 📚🗂️🎥 Resources
 
