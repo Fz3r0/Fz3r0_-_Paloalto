@@ -70,19 +70,30 @@ commit
 
 ````
 
-# 🟰 Validations and Results
+# 📥 Importing the Paloalto Appliance
+
+- Important: I will be using the `PA-VM 9.0.4` based on `QEMU` [INSTRUCTIONS FOR INSTALLATION](https://github.com/Fz3r0/Fz3r0_-_Paloalto/blob/main/03-Lab-Virtualization/Paloalto%2BGNS3/Paloalto-Virtualization_QEMU-GNS3-Pre-Licenced.md)
 
 In the left side of GNS3 check for the new `PA-VM 9.0.4` in the `Security` devices: 
 
 <span align="center"> <p align="center"> ![gns3](https://github.com/user-attachments/assets/1e3b431c-1e3f-4d08-a495-b0bb1dd495c1) </p> </span> 
 
-Add the Appliance, a VPC, a NAT or Cloud and check for DHCP and connections, it's important to check the IP obtained for future uses:
+- Add the Appliance, a VPC, a NAT or Cloud and check for DHCP and connections (it's important to check the IP obtained for future uses).
+- **Check from the PC for an Available IP for future use in the Paloalto, in my case `192.168.122.200` (No response: available IP Address)**
 
 ![image](https://github.com/user-attachments/assets/549f9dde-81e0-46b9-b754-7ee9612dc4ac)
 
-**Check from the PC for an Available IP for future use in the Paloalto, in my case `192.168.122.200` (No response: available IP Address)**
+- Enter the Paloalto Appliance via SSH (just double click) **YOU MUST WAIT SEVERAL MINUTES, BE PATIENT!!!**
 
-#### Fz3r0 Lab Result:
+![image](https://github.com/user-attachments/assets/2ac2d6d6-d1ac-4fff-a80d-e23a3b33e71b)
+
+# 📥 Log-In for first time
+
+Use the default Username/Password: 
+
+
+
+# 🏠📧🌐 Fz3r0 Lab Addressing
 
 | **Parameter**         | **Value**            |
 |------------------------|----------------------|
@@ -90,6 +101,7 @@ Add the Appliance, a VPC, a NAT or Cloud and check for DHCP and connections, it'
 | **Gateway**            | `192.168.122.1`     |
 | **DHCP for VPC**       | `192.168.122.205`   |
 | **DHCP for Paloalto**  | `192.168.122.200`   |
+
 
 # 📚🗂️🎥 Resources
 
