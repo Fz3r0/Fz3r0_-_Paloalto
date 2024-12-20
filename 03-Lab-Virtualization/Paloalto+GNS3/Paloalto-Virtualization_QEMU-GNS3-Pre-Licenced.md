@@ -76,8 +76,9 @@ The pre-licenced VM's (eg. KVR 10.0.4) use a specified date generated when the f
 
 **The way to work-around this issue using the GNS3 KVM or VMware .ova  is to manually changin the date to the GNS3 virtual machine:**
 
-1- Disable the time on the Vmware:
-    - Go to PA-VM or GNS3-VM host directory and add below lines to the `.vmx file` (eg `C:\Users\Fz3r0\Documents\Virtual Machines\GNS3 VM`), to completely disable the time sync:
+1. Disable the time on the Vmware:
+
+    - Go to PA-VM or GNS3-VM host directory and add below lines to the `.vmx file` (eg `C:\Users\Fz3r0\Documents\Virtual Machines\GNS3 VM\GNS3 VM.vmx`), to completely disable the time sync:
     
 ````
       time.synchronize.continue = "FALSE"
@@ -93,16 +94,19 @@ or
       time.synchronize.continue = "FALSE"
 ````
 
+2. Start the VM from : Power -> Power on to Firmware
 
-3- Start the VM from : Power -> Power on to Firmware
+![image](https://github.com/user-attachments/assets/ecbcd7b5-97b0-44a6-8e92-fe570d4dc782)
 
-4- from BIOS, change date to 01/01/2021
+3. From BIOS, change date to `01/01/2021` _(move with tab and arrows)_
 
-5- Save and Exit from BIOS
+![image](https://github.com/user-attachments/assets/d3f4dde8-008e-46c0-88a2-2ff44061e40c)
 
-6- VM will come up and will not power off anymore, you can set NTP on the PA VM to have the correct time.
+4- Save and Exit from BIOS `F10`
 
-7- If you shutdown the VM and want to restart it again, repeat from step 3. 
+5- VM will come up and will not power off anymore, you can set NTP on the PA VM to have the correct time.
+
+6- If you shutdown the VM and want to restart it again, repeat from step 3. 
 
 
 ## 📥 Importing the Paloalto Appliance
