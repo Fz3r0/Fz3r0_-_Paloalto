@@ -17,8 +17,13 @@
 
 # 🔥🧱🛡️ Paloalto: `GNS3` + `QEMU`
 
+This guide provides step-by-step instructions to set up a Paloalto virtual firewall in GNS3 using QEMU. You'll learn how to download the required appliance and virtual firewall files, configure the GNS3 environment, and start working with the PA-VM template.
+
+The process includes importing the Paloalto appliance, resolving missing files, and setting up the firewall for basic network connectivity. By the end, you'll have a functional Paloalto VM ready for testing and learning within your GNS3 environment.
 
 # Instructions
+
+Start by downloading the necessary files and follow the instructions below to get your virtual firewall up and running!
 
 ### 1. Download & Install PA GNS3 Appliance + Paloalto Virtual Firewall
 
@@ -40,7 +45,7 @@
 5. Select the version of the **Paloalto Virtual Firewall** you want to use (in my case 9.0.4), next...
     - If is not showing green already and are "missing files" then:
     - Click `Import` (bottom left) and select the Virtual Firewall from your PC (eg. `virtioa.qcow2`).   
-6. Click Finish
+6. Click Finish and you will see `The appliance has been installed and a template named 'PA-VM 9.0.4' has been successfully created!`
 
 The template will be available in the firewall category.
 
@@ -61,7 +66,11 @@ commit
 
 ````
 
+# Result
 
+In the left side of GNS3 check for the new `PA-VM 9.0.4` in the `Security` devices: 
+
+![image](https://github.com/user-attachments/assets/1e3b431c-1e3f-4d08-a495-b0bb1dd495c1)
 
 # 📚🗂️🎥 Resources
 
