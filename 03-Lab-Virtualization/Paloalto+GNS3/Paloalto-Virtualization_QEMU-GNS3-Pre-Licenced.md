@@ -87,17 +87,20 @@ In the left side of GNS3 check for the new `PA-VM 9.0.4` in the `Security` devic
 
 ![image](https://github.com/user-attachments/assets/549f9dde-81e0-46b9-b754-7ee9612dc4ac)
 
-- Enter the Paloalto Appliance via SSH (just double click)
-    - **YOU MUST WAIT SEVERAL MINUTES UNTIL THE `4TH PROMPT/RESTART` BEFORE YOU CAN LOGIN, BE PATIENT!!!**
-    - **YOU WILL SEE PROMPTS LIKE: `"VM LOGIN"` OR `"PA HDF LOGIN"` OR `PANOS BOOT ERROR BLAH BLAH`, DON'T TOUCH ANYTHING, JUST WAIT!!!**
-    - **IN MY CASE I'VE WATED MORE THAN 15 MINUTES WITH A MONSTER PC**
-    - THE LAST PROMT IS CALLED **``**
 
 
 
 
 
 # 📥 Log-In for first time
+
+1. Enter the Paloalto Appliance via SSH (just double click) <br><br>
+    - **YOU MUST WAIT SEVERAL MINUTES UNTIL THE `4TH PROMPT/RESTART` BEFORE YOU CAN LOGIN, BE PATIENT!!!**
+    - **YOU WILL SEE PROMPTS LIKE: `"VM LOGIN"` OR `"PA HDF LOGIN"` OR `PANOS BOOT ERROR BLAH BLAH`, DON'T TOUCH ANYTHING, JUST WAIT!!!**
+    - **IN MY CASE I'VE WATED MORE THAN 15 MINUTES WITH A MONSTER PC**
+    - THE LAST PROMT IS CALLED **``**
+
+2. Enter the default credentials `admin/admin`
 
 Use the default Username/Password: 
 
