@@ -27,6 +27,7 @@
 
 - https://www.youtube.com/watch?v=TbQxGUKgpg8
 - https://labhub.eu.org/UNETLAB%20II/addons/qemu/Palo%20Alto/
+- https://www.youtube.com/watch?v=VEZ5DZpQ_qc&list=PL9aktFItFNdOXy0Z-D5RFSdX_AHjJrIgi&index=1
 
   
 ---
