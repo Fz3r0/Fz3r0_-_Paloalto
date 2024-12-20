@@ -20,21 +20,56 @@
 
 # Instructions
 
-### 1. Download & Install PA GNS3 Appliance
+### 1. Download & Install PA GNS3 Appliance + Paloalto Virtual Firewall
+
+#### Appliance:
 
 - https://gns3.com/marketplace/appliances/pa-vm
 
-Steps:
+#### Paloalto Firewalls
+
+- https://www.mediafire.com/file/fz68eqzye2hdfmd/virtioa.qcow2/file (v9.0.4)
+- https://labhub.eu.org/UNETLAB%20II/addons/qemu/Palo%20Alto/ (v10)
+
+#### Steps:
 
 1. Download `pan-vm-fw.gns3a`
 2. Open GNS3 & Click on: `File > Import Appliance` 
 3. Install on main server, next...
 4. QUEMU binary, just click next...
-5. Select the version you want to use (in my case 9.0.4)
+5. Select the version of the **Paloalto Virtual Firewall** you want to use (in my case 9.0.4), next...
     - If is not showing green already and are "missing files" then:
-    -  
+    - Click `Import` (bottom left) and select the Virtual Firewall from your PC (eg. `virtioa.qcow2`).   
+6. Click Finish
 
+The template will be available in the firewall category.
 
+- **Default Username: `admin`**
+- **Default Password: `admin`**
+
+_PAN-VM goes through several iterations of host prompts during boot. This is normal and expected._
+
+#### Getting Started:
+
+To configure a static IP address at the console enter the following commands:
+
+````sh
+configure
+set deviceconfig system ip-address <Static IP> netmask <Netmask> default-gateway <Gateway IP> type static
+set deviceconfig system dns-setting servers primary <DNS Server IP> secondary <DNS Server IP>
+commit
+
+````
+
+Example:
+
+````sh
+configure
+set deviceconfig system ip-address <Static IP> netmask <Netmask> default-gateway <Gateway IP> type static
+set deviceconfig system dns-setting servers primary <DNS Server IP> secondary <DNS Server IP>
+commit
+
+````
 
 # 📚🗂️🎥 Resources
 
