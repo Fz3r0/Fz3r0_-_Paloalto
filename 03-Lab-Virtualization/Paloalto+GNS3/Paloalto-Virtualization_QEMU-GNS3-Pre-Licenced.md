@@ -15,7 +15,7 @@
 
 # 📝❓📄 `Index`
 
-- Instructions
+- [Instructions](https://github.com/Fz3r0/Fz3r0_-_Paloalto/blob/main/03-Lab-Virtualization/Paloalto+GNS3/Paloalto-Virtualization_QEMU-GNS3-Pre-Licenced.md#instructions)
 - Result
 
 # 🔥🧱🛡️ Paloalto: `GNS3` + `QEMU`
@@ -24,11 +24,11 @@ This guide provides step-by-step instructions to set up a Paloalto virtual firew
 
 The process includes importing the Paloalto appliance, resolving missing files, and setting up the firewall for basic network connectivity. By the end, you'll have a functional Paloalto VM ready for testing and learning within your GNS3 environment.
 
-# Instructions
+# ❓ Instructions
 
 Start by downloading the necessary files and follow the instructions below to get your virtual firewall up and running!
 
-### 1. Download & Install PA GNS3 Appliance + Paloalto Virtual Firewall
+### ⭕ 1. Download PA GNS3 Appliance + Paloalto Virtual Firewall
 
 #### Appliance:
 
@@ -39,7 +39,7 @@ Start by downloading the necessary files and follow the instructions below to ge
 - https://www.mediafire.com/file/fz68eqzye2hdfmd/virtioa.qcow2/file (v9.0.4)
 - https://labhub.eu.org/UNETLAB%20II/addons/qemu/Palo%20Alto/ (v10)
 
-#### Steps:
+### ⭕ 2. Installation:
 
 1. Download `pan-vm-fw.gns3a`
 2. Open GNS3 & Click on: `File > Import Appliance` 
@@ -57,7 +57,7 @@ The template will be available in the firewall category.
 
 _PAN-VM goes through several iterations of host prompts during boot. This is normal and expected._
 
-#### Getting Started:
+### ⭕ 3. Getting Started:
 
 To configure a static IP address at the console enter the following commands:
 
@@ -69,7 +69,7 @@ commit
 
 ````
 
-# Result
+# 🟰 Installation Result
 
 In the left side of GNS3 check for the new `PA-VM 9.0.4` in the `Security` devices: 
 
