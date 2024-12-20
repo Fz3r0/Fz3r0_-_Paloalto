@@ -13,7 +13,7 @@
 
 <br>
 
-## 📝❓📄 `Index`
+# 📝❓📄 `Index`
 
 - [Introduction: Paloalto: GNS3 + QEMU](https://github.com/Fz3r0/Fz3r0_-_Paloalto/blob/main/03-Lab-Virtualization/Paloalto+GNS3/Paloalto-Virtualization_QEMU-GNS3-Pre-Licenced.md#%EF%B8%8F-introduction-paloalto-gns3--qemu)
 - [Instructions](https://github.com/Fz3r0/Fz3r0_-_Paloalto/blob/main/03-Lab-Virtualization/Paloalto+GNS3/Paloalto-Virtualization_QEMU-GNS3-Pre-Licenced.md#-instructions)
@@ -70,7 +70,7 @@ commit
 
 ````
 
-## ❓ IMPORTANT: For 10.0.4 or Any Pre-Licenced VM
+## ❓ IMPORTANT: `For 10.0.4 or Any Pre-Licenced VM`
 
 The pre-licenced VM's (eg. KVR 10.0.4) use a specified date generated when the file/licence was created, so it's no longer valid!
 
