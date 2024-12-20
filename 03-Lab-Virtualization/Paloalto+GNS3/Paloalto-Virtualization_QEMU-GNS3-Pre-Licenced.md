@@ -1,4 +1,4 @@
-# 🔥🧱🛡️ `Paloalto` - `VMware Virtualization` + `GNS3`
+# 🔥🧱🛡️ `Paloalto Virtualization` - `GNS3` + `QEMU`
 
 ![My Video](https://user-images.githubusercontent.com/94720207/165892585-b830998d-d7c5-43b4-a3ad-f71a07b9077e.gif)
 
@@ -15,7 +15,7 @@
 
 # 📝❓📄 `Index`
 
-# 🔥🧱🛡️ Paloalto: `VMware Virtualization` + `GNS3` + `QEMU`
+# 🔥🧱🛡️ Paloalto: `GNS3` + `QEMU`
 
 
 # Instructions
