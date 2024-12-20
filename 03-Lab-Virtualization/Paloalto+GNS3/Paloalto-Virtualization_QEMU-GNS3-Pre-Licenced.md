@@ -70,11 +70,28 @@ commit
 
 ````
 
-# 🟰 Installation Result
+# 🟰 Validations and Results
 
 In the left side of GNS3 check for the new `PA-VM 9.0.4` in the `Security` devices: 
 
 <span align="center"> <p align="center"> ![gns3](https://github.com/user-attachments/assets/1e3b431c-1e3f-4d08-a495-b0bb1dd495c1) </p> </span> 
+
+Add the Appliance, a VPC, a NAT or Cloud and check for DHCP and connections, it's important to check the IP obtained for future uses:
+
+![image](https://github.com/user-attachments/assets/ac072169-40c8-438d-83cb-52ab30000723)
+
+Check from the PC for an Available IP for future use in the Paloalto, in my case `192.168.122.200` (No response: available IP Address)
+
+![image](https://github.com/user-attachments/assets/5b4866ee-d038-471b-8453-b16b9e074057)
+
+#### Fz3r0 Lab Result:
+
+| **Parameter**         | **Value**            |
+|------------------------|----------------------|
+| **Network IP**         | `192.168.122.0/24`  |
+| **Gateway**            | `192.168.122.1`     |
+| **DHCP for VPC**       | `192.168.122.205`   |
+| **DHCP for Paloalto**  | `192.168.122.200`   |
 
 # 📚🗂️🎥 Resources
 
