@@ -13,19 +13,19 @@
 
 <br>
 
-# 📝❓📄 `Index`
+## 📝❓📄 `Index`
 
 - [Introduction: Paloalto: GNS3 + QEMU](https://github.com/Fz3r0/Fz3r0_-_Paloalto/blob/main/03-Lab-Virtualization/Paloalto+GNS3/Paloalto-Virtualization_QEMU-GNS3-Pre-Licenced.md#%EF%B8%8F-introduction-paloalto-gns3--qemu)
 - [Instructions](https://github.com/Fz3r0/Fz3r0_-_Paloalto/blob/main/03-Lab-Virtualization/Paloalto+GNS3/Paloalto-Virtualization_QEMU-GNS3-Pre-Licenced.md#-instructions)
 - [Installation Result](https://github.com/Fz3r0/Fz3r0_-_Paloalto/blob/main/03-Lab-Virtualization/Paloalto+GNS3/Paloalto-Virtualization_QEMU-GNS3-Pre-Licenced.md#-installation-result)
 
-# 🔥🧱🛡️ Introduction: `Paloalto: GNS3 + QEMU`
+## 🔥🧱🛡️ Introduction: `Paloalto: GNS3 + QEMU`
 
 This guide provides step-by-step instructions to set up a Paloalto virtual firewall in GNS3 using QEMU. You'll learn how to download the required appliance and virtual firewall files, configure the GNS3 environment, and start working with the PA-VM template.
 
 The process includes importing the Paloalto appliance, resolving missing files, and setting up the firewall for basic network connectivity. By the end, you'll have a functional Paloalto VM ready for testing and learning within your GNS3 environment.
 
-# ❓ Instructions
+## ❓ Paloalto: GNS3 + QEMU: `Instructions`
 
 Start by downloading the necessary files and follow the instructions below to get your virtual firewall up and running!
 
@@ -70,7 +70,7 @@ commit
 
 ````
 
-# ❓ IMPORTANT: For 10.0.4 or Any Pre-Licenced VM
+## ❓ IMPORTANT: For 10.0.4 or Any Pre-Licenced VM
 
 The pre-licenced VM's (eg. KVR 10.0.4) use a specified date generated when the file/licence was created, so it's no longer valid!
 
@@ -97,7 +97,7 @@ The pre-licenced VM's (eg. KVR 10.0.4) use a specified date generated when the f
 7- If you shutdown the VM and want to restart it again, repeat from step 3. 
 
 
-# 📥 Importing the Paloalto Appliance
+## 📥 Importing the Paloalto Appliance
 
 - Important: I will be using the `PA-VM 9.0.4` based on `QEMU` [INSTRUCTIONS FOR INSTALLATION](https://github.com/Fz3r0/Fz3r0_-_Paloalto/blob/main/03-Lab-Virtualization/Paloalto%2BGNS3/Paloalto-Virtualization_QEMU-GNS3-Pre-Licenced.md)
 
@@ -119,7 +119,7 @@ In the left side of GNS3 check for the new `PA-VM 9.0.4` in the `Security` devic
 
 
 
-# 📥 Log-In for first time
+## 📥 Log-In for first time
 
 1. Enter the Paloalto Appliance via SSH (just double click) <br><br>
     - **YOU MUST WAIT SEVERAL MINUTES UNTIL THE `4TH PROMPT/RESTART` BEFORE YOU CAN LOGIN, BE PATIENT!!!**
