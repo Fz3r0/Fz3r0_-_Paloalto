@@ -70,6 +70,33 @@ commit
 
 ````
 
+# ❓ IMPORTANT: For 10.0.4 or Any Pre-Licenced VM
+
+The pre-licenced VM's (eg. KVR 10.0.4) use a specified date generated when the file/licence was created, so it's no longer valid!
+
+**The way to work-around this issue using the GNS3 KVM or VMware .ova  is to manually changin the date to the GNS3 virtual machine:**
+
+1- Disable the time on the Vmware
+
+2- Go to VM host directory and add below lines to the vmx file, to completely disable the time sync
+
+      time.synchronize.continue = "FALSE"
+      time.synchronize.restore = "FALSE"
+      time.synchronize.resume.disk = "FALSE"
+      time.synchronize.shrink = "FALSE"
+      time.synchronize.tools.startup = "FALSE"
+
+3- Start the VM from : Power -> Power on to Firmware
+
+4- from BIOS, change date to 01/01/2021
+
+5- Save and Exit from BIOS
+
+6- VM will come up and will not power off anymore, you can set NTP on the PA VM to have the correct time.
+
+7- If you shutdown the VM and want to restart it again, repeat from step 3. 
+
+
 # 📥 Importing the Paloalto Appliance
 
 - Important: I will be using the `PA-VM 9.0.4` based on `QEMU` [INSTRUCTIONS FOR INSTALLATION](https://github.com/Fz3r0/Fz3r0_-_Paloalto/blob/main/03-Lab-Virtualization/Paloalto%2BGNS3/Paloalto-Virtualization_QEMU-GNS3-Pre-Licenced.md)
@@ -122,8 +149,8 @@ Use the default Username/Password:
 - https://youtu.be/VEZ5DZpQ_qc?si=uOT53KK6zI1mgiER
 - https://labhub.eu.org/UNETLAB%20II/addons/qemu/Palo%20Alto/
 - https://www.youtube.com/watch?v=VEZ5DZpQ_qc&list=PL9aktFItFNdOXy0Z-D5RFSdX_AHjJrIgi&index=1
+- https://live.paloaltonetworks.com/t5/general-topics/pa-vm-10-0-4-deployment/m-p/502912#M105376
 
-  
 ---
 
 <span align="center"> <p align="center"> ![giphy](https://user-images.githubusercontent.com/94720207/166587250-292d9a9f-e590-4c25-a678-d457e2268e85.gif) </p> </span> 
