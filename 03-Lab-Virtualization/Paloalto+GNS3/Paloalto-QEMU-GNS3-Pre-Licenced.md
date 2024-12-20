@@ -26,6 +26,7 @@
 # 📚🗂️🎥 Resources
 
 - https://www.youtube.com/watch?v=TbQxGUKgpg8
+- https://labhub.eu.org/UNETLAB%20II/addons/qemu/Palo%20Alto/
 
   
 ---
