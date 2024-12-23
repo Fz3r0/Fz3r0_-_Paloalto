@@ -68,6 +68,10 @@ Use credentials (in my case `admin` / `Admin.,12345`)
 
 ![image](https://github.com/user-attachments/assets/a82faa10-e7a7-4421-88c9-4053d2f46542)
 
+Check the Management Interface Configuration: 
+
+![image](https://github.com/user-attachments/assets/1055b645-dd06-46c5-86a5-fd8e89ac54a0)
+
 
 # 📚🗂️🎥 Resources
 
