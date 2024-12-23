@@ -31,6 +31,9 @@
 
 ## Add machine to workspace & test
 
+![image](https://github.com/user-attachments/assets/48c579a6-38f3-4fb9-b4f2-074ede265619)
+
+**Have fun!**
 
 
 # 📚🗂️🎥 Resources
