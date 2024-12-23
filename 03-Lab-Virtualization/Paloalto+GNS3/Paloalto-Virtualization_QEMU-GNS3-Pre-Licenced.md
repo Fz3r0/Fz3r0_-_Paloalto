@@ -170,8 +170,65 @@ In the left side of GNS3 check for the new `PA-VM 9.0.4` in the `Security` devic
 
 2. Enter the default credentials `admin/admin`
 
-Use the default Username/Password: 
+3. Check the `show system info` and validate the 30 day licence:
 
+````java
+admin@PA-VM> show system info
+
+hostname: PA-VM
+ip-address: unknown
+public-ip-address: unknown
+netmask: unknown
+default-gateway: 
+ip-assignment: dhcp
+ipv6-address: unknown
+ipv6-link-local-address: unknown
+ipv6-default-gateway: 
+mac-address: 0c:e7:82:ba:00:00
+time: Sat Sep 11 19:07:20 2021
+uptime: 0 days, 2:07:08
+family: vm
+model: PA-VM
+serial: 4C4C4508149EFCF
+vm-uuid: CDE782BA-279D-4BD1-B7C7-850BDB12ECED
+vm-cpuid: KVMEVL:63060000FDFB8B07:VMFlex30dayEval:us-west1
+vm-license: 
+eval-days-left: 30   <<<<-------------------||| 30 day evaluation active!! :D
+vm-cap-tier: nolic
+vm-cpu-count: 2
+vm-memory: 4041648
+vm-mode: KVM
+cloud-mode: non-cloud
+sw-version: 10.0.4.vm_eval
+global-protect-client-package-version: 0.0.0
+device-dictionary-version: 1-211
+device-dictionary-release-date: 
+app-version: 8408-6715
+app-release-date: 
+av-version: 0
+av-release-date: 
+threat-version: 0
+threat-release-date: 
+wf-private-version: 0
+wf-private-release-date: unknown
+url-db: paloaltonetworks
+wildfire-version: 0
+wildfire-release-date: 
+wildfire-rt: Disabled
+url-filtering-version: 0000.00.00.000
+global-protect-datafile-version: unknown
+global-protect-datafile-release-date: unknown
+global-protect-clientless-vpn-version: 0
+global-protect-clientless-vpn-release-date: 
+logdb-version: 10.0.3
+vm_series: vm_series-2.0.4
+dlp: dlp-1.0.2
+platform-family: vm
+vpn-disable-mode: off
+multi-vsys: off
+operational-mode: normal
+device-certificate-status: None
+````
 
 
 # 🏠📧🌐 Fz3r0 Lab Addressing
