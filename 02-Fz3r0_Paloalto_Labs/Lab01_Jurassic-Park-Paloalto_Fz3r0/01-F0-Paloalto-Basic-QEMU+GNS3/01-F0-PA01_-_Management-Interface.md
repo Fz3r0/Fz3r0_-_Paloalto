@@ -64,6 +64,11 @@ Enter the Dashboard:
 
 ![image](https://github.com/user-attachments/assets/7f4145de-4d4c-4e24-a637-f64212fa9328)
 
+Use credentials (in my case `admin` / `Admin.,12345`)
+
+![image](https://github.com/user-attachments/assets/a82faa10-e7a7-4421-88c9-4053d2f46542)
+
+
 # 📚🗂️🎥 Resources
 
 - https://www.youtube.com/watch?v=TbQxGUKgpg8
