@@ -60,6 +60,9 @@ Test the results:
 
 ![image](https://github.com/user-attachments/assets/5e198601-ad42-4b89-8e26-26c87b49d6c6)
 
+Enter the Dashboard:
+
+![image](https://github.com/user-attachments/assets/7f4145de-4d4c-4e24-a637-f64212fa9328)
 
 # 📚🗂️🎥 Resources
 
