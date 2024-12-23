@@ -54,6 +54,13 @@ commit
 
 ## Option 1: `Only for virtualized Labs like GNS3`
 
+- Just add the script to the CLI without even connecting to the management interface (using douwbl click)
+
+Test the results:
+
+![image](https://github.com/user-attachments/assets/5e198601-ad42-4b89-8e26-26c87b49d6c6)
+
+
 # 📚🗂️🎥 Resources
 
 - https://www.youtube.com/watch?v=TbQxGUKgpg8
